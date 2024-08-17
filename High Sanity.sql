@@ -37,7 +37,7 @@ primary key(id)
 
 create table Denuncias(
 data date,
-conteudo varchar(30),
+conteudo varchar(100),
 id int auto_increment,
 primary key(id),
 FK_postagens_id int,
