@@ -76,3 +76,11 @@ foreign key(FK_usuariocomum_id) references UsuarioComum(id),
 foreign key(FK_denuncias_id) references Denuncias(id),
 primary key(FK_usuariocomum_id, FK_denuncias_id)
 );
+
+create table UsuarioProfissionalDenuncias(
+FK_usuarioprofissional_id int,
+FK_denuncias_id int,
+foreign key(FK_usuarioprofissional_id) references UsuarioProfissional(id),
+foreign key(FK_denuncias_id) references Denuncias(id),
+primary key(FK_usuarioprofissional_id, FK_denuncias_id)
+);
