@@ -4,7 +4,7 @@ use trabalho;
 create table Postagens(
 topico varchar(15),
 titulo 	varchar(15),
-assunto varchar(45),
+assunto varchar(200),
 id int auto_increment,
 primary key(id)
 );
