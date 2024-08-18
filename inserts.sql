@@ -1,14 +1,14 @@
 #------------Inserts de postagens------------
 insert into postagens(topico, titulo, assunto) 
 values('Sair de casa', 'Vejo vultos', 'Não consigo sair de casa sem ficar assustado
-olho sempre para os lados pensando que alguém pode estar me perseguindo,
+olho sempre para os lados pensando que algum daqueles homens brancos nojentos do caralho podem estar me perseguindo,
 alguém poderia me dar apoio?');
 insert into postagens(topico, titulo, assunto)
-values('Socializar','Hoje riram de mim','Estava indo para a padaria comprar pão sozinho pela primeira vez, até que dois colegas de escola
-chegaram para tirar chacota de mim, estou extremamente desanimado para ir buscar pão de novo');
+values('Dicas de um psiquiatra','Isso é tudo frescura','Nos meus 20 anos trabalhando como psiquiatra nunca vi alguém que realmente estava passando por algo,
+todos vocês afirmando que têm algum problema só querem atenção!');
 insert into postagens(topico, titulo, assunto)
-values('Saúde','Me sinto mais pesado..','Recentemente minha vó morreu, por conta disso passei por muito estresse e tristeza durante meus dias de luto,
-algum de vocês sabe uma forma de me exercitar sem ter de interagir com outras pessoas?');
+values('Saúde','Descobri uma receita TOP','Recentemente comecei a gostar de cozinhar ovos mais do que qualquer coisa, descobri umas receitas de salada de ovos muito boas,
+mas não sei nenhuma que envolva ovos mexidos... alguém sabe uma receita fácil e rápido de ovos mexidos?');
 
 #------------Inserts de Usuários comuns------------
 insert into UsuarioComum(genero, senha, email, nome, meta, foto_perfil, nickname, disturbio) 
@@ -36,24 +36,25 @@ values('2024-04-11', 'Profissional Falso', 2);
 
 #------------Inserts de Comentários------------
 insert into Comentarios (mensagem, data, FK_postagens_id) 
-values('Olá meu nome é pedro, sou psiquiatra e posso afirmar que isso deve ser coisa da sua cabeça, com o tempo você vai perceber que não tem ninguém lhe observando', '2024-12-25', 2);
+values('Sou psiquiatra e trabalho na HOLISTE, posso afirmar que seu nome não está registrado no sistema, irei denunciar seu post por estar se passando por um profissional!', '2024-12-25', 2);
 insert into Comentarios (mensagem, data, FK_postagens_id) 
-values('Mano, quando chegar na escola ja vai direto na coordenação denunciar véi, isso é seríssimo!!', '2024-09-11', 1);
+values('É sério que tu veio aqui, tirou do teu tempo pra postar sobre culinária em um site de suporte pra pessoas com distúrbios?? vou denunciar teu post é agora', '2024-09-11', 3);
 insert into Comentarios (mensagem, data, FK_postagens_id) 
-values('Bixo não se preocupa com o que os outros pensam não, pega um fone de ouvido, uma garrafa cheia de água e vai lá!', '2024-06-26', 3);
+values('Bixo não se preocupa com o que os outros pensam não, pega um fone de ouvido, uma garrafa cheia de água e vai lá!, mas sinto lhe informar que irei denunciar seu post 
+por ser ofensivo!', '2024-09-26', 1);
 
 #------------Inserts de ComentarioUsuarioComum------------
 insert into ComentariosUsuarioComum (FK_comentarios_id, FK_usuariocomum_id) 
-values(3, 3);
+values(2, 3);
 
 #------------Inserts de ComentarioUsuarioProfissional------------
 insert into ComentariosUsuarioProfissional (FK_comentarios_id, FK_usuarioprofissional_id)
-values(2, 2);
+values(1, 2);
 
 #------------Inserts de UsuarioProfissionalDenuncias------------
 insert into UsuarioProfissionalDenuncias (FK_usuarioprofissional_id, FK_denuncias_id)
-values(2,3);
+values(2, 3);
 
 ##------------Inserts de UsuarioComumDenuncias------------
 insert into UsuarioComumDenuncias (FK_usuariocomum_id, FK_denuncias_id)
-values(1,1);
+values(3, 2);
