@@ -2,9 +2,9 @@ create database trabalho;
 use trabalho;
 
 create table Postagens(
-topico varchar(15),
-titulo 	varchar(15),
-assunto varchar(200),
+topico varchar(100),
+titulo 	varchar(100),
+assunto varchar(500),
 id int auto_increment,
 primary key(id)
 );
@@ -12,12 +12,12 @@ primary key(id)
 create table UsuarioComum(
 genero varchar(10),
 senha varchar(35),
-email varchar(30),
-nome varchar(30),
-meta varchar(75),
+email varchar(50),
+nome varchar(50),
+meta varchar(150),
 foto_perfil varchar(75),
-nickname varchar(15),
-disturbio varchar(15),
+nickname varchar(30),
+disturbio varchar(40),
 id int auto_increment,
 primary key(id)
 );
@@ -25,19 +25,19 @@ primary key(id)
 create table UsuarioProfissional(
 genero varchar(10),
 senha varchar(35),
-email varchar(30),
-nome varchar(30),
-meta varchar(75),
+email varchar(50),
+nome varchar(50),
+meta varchar(150),
 foto_perfil varchar(75),
-nickname varchar(15),
+nickname varchar(30),
 id int auto_increment,
-profissao varchar(40),
+profissao varchar(80),
 primary key(id)
 );
 
 create table Denuncias(
 data date,
-conteudo varchar(100),
+conteudo varchar(200),
 id int auto_increment,
 primary key(id),
 FK_postagens_id int,
@@ -46,7 +46,7 @@ foreign key (FK_postagens_id) references Postagens(id)
 
 create table Comentarios(
 id int auto_increment,
-mensagem varchar(30),
+mensagem varchar(300),
 data date,
 FK_postagens_id int,
 foreign key (FK_postagens_id) references Postagens(id),
