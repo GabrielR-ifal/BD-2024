@@ -1,12 +1,12 @@
 #------------Inserts de postagens------------
-insert into postagens(topico, titulo, assunto) 
+insert into Postagens(topico, titulo, assunto) 
 values('Sair de casa', 'Vejo vultos', 'Não consigo sair de casa sem ficar assustado
 olho sempre para os lados pensando que algum daqueles homens brancos nojentos do caralho podem estar me perseguindo,
 alguém poderia me dar apoio?');
-insert into postagens(topico, titulo, assunto)
+insert into Postagens(topico, titulo, assunto)
 values('Dicas de um psiquiatra','Isso é tudo frescura','Nos meus 20 anos trabalhando como psiquiatra nunca vi alguém que realmente estava passando por algo,
 todos vocês afirmando que têm algum problema só querem atenção!');
-insert into postagens(topico, titulo, assunto)
+insert into Postagens(topico, titulo, assunto)
 values('Saúde','Descobri uma receita TOP','Recentemente comecei a gostar de cozinhar ovos mais do que qualquer coisa, descobri umas receitas de salada de ovos muito boas,
 mas não sei nenhuma que envolva ovos mexidos... alguém sabe uma receita fácil e rápido de ovos mexidos?');
 
