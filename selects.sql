@@ -1,3 +1,5 @@
+#Variar Selects Antes de entregar
+
 #------------Selects da postagem de id 3------------
 select data, conteudo, id from denuncias where FK_postagens_id = 3;
 select assunto from postagens where id = 3;
