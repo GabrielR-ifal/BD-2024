@@ -1,4 +1,4 @@
-#Adicionar Chat antes de entregar
+#ADICIONAR ATRIBUTOS DA TABELA CHAT EM AMBOS OS TIPOS DE USUÁRIO
 
 create database trabalho;
 use trabalho;
@@ -9,6 +9,11 @@ titulo 	varchar(100),
 assunto varchar(500),
 id int auto_increment,
 primary key(id)
+);
+
+create table Chat(
+id int auto_increment,
+qt_msg_total varchar(50000)
 );
 
 create table UsuarioComum(
