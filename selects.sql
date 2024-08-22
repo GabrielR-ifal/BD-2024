@@ -1,4 +1,4 @@
-#Variar Selects Antes de entregar
+#VARIAR SELECTS ANTES DE ENTREGAR
 
 #------------Selects da postagem de id 3------------
 select data, conteudo, id from denuncias where FK_postagens_id = 3;
