@@ -1,3 +1,5 @@
+#Adicionar Chat antes de entregar
+
 create database trabalho;
 use trabalho;
 
