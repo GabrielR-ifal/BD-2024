@@ -26,6 +26,14 @@ values('Masculino', '2425pedro26', 'almeidaserviçospsiquiatricos@gmail.com', 'P
 insert into UsuarioProfissional (genero, senha, email, nome, meta, foto_perfil, nickname, profissao) 
 values('Masculino', 'Silvester24', 'carla@gmail.com', 'Henrique Silvestre', 'Auxiliar no desenvolvimento dos usuários emocional', 'Henrique_Silvestre.jpeg', 'Paola_ajuda', 'Terapeuta Ocupacional');
 
+#------------Inserts do Chat------------
+insert into Chat(qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+values('89 itens', 1, 3);
+insert into Chat(qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+values('89 itens', 2, 1);
+insert into Chat(qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+values('89 itens', 3, 2);
+
 #------------Inserts de Denúncias------------
 insert into Denuncias (data, conteudo, FK_postagens_id) 
 values('2024-12-09', 'O post contém ofensas', 1);
