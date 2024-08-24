@@ -27,12 +27,12 @@ insert into UsuarioProfissional (genero, senha, email, nome, meta, foto_perfil, 
 values('Masculino', 'Silvester24', 'carla@gmail.com', 'Henrique Silvestre', 'Auxiliar no desenvolvimento dos usuários emocional', 'Henrique_Silvestre.jpeg', 'Paola_ajuda', 'Terapeuta Ocupacional');
 
 #------------Inserts Chat------------
-insert into Chat(qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
-values('89 itens', 1, 3);
-insert into Chat(qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
-values('300 itens', 2, 1);
-insert into Chat(qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
-values('1500 itens', 3, 2);
+insert into Chat(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+values(1, '89 itens', 1, 3);
+insert into Chat(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+values(2, '300 itens', 2, 1);
+insert into Chat(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+values(3, '1500 itens', 3, 2);
 
 #------------Inserts Denúncias------------
 insert into Denuncias (data, conteudo, FK_postagens_id) 
