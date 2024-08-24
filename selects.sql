@@ -15,3 +15,6 @@ select data, conteudo, id from denuncias where FK_postagens_id = 1;
 select assunto from postagens where id = 1;
 select data, mensagem from comentarios where FK_postagens_id = 1;
 select FK_comentarios_id, FK_usuariocomum_id from comentariosusuariocomum where FK_usuariocomum_id = 3;
+
+
+#Não passou nenhum outro tipo de select que faria sentido no meu projeto pela minha cabeça.
