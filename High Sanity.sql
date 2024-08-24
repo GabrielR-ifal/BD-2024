@@ -28,7 +28,7 @@ foto_perfil varchar(75),
 nickname varchar(30),
 disturbio varchar(40),
 id int auto_increment,
-primary key(id),
+primary key(id)
 );
 
 create table UsuarioProfissional(
@@ -41,7 +41,7 @@ foto_perfil varchar(75),
 nickname varchar(30),
 id int auto_increment,
 profissao varchar(80),
-primary key(id),
+primary key(id)
 );
 
 create table Denuncias(
