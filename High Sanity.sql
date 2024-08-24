@@ -9,15 +9,6 @@ id int auto_increment,
 primary key(id)
 );
 
-create table Chat(
-id int auto_increment,
-qt_msg_total varchar(50000),
-FK_usuariocomum_id int,
-FK_usuarioprofissional_id int,
-foreign key (FK_usuariocomum_id) references UsuarioComum(id),
-foreign key (FK_usuarioprofissional_id) references UsuarioProfissional(id)
-);
-
 create table UsuarioComum(
 genero varchar(10),
 senha varchar(35),
@@ -42,6 +33,15 @@ nickname varchar(30),
 id int auto_increment,
 profissao varchar(80),
 primary key(id)
+);
+
+create table Chat(
+id int,
+qt_msg_total varchar(15000),
+FK_usuariocomum_id int,
+FK_usuarioprofissional_id int,
+foreign key (FK_usuariocomum_id) references UsuarioComum(id),
+foreign key (FK_usuarioprofissional_id) references UsuarioProfissional(id)
 );
 
 create table Denuncias(
