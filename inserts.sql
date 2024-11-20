@@ -11,27 +11,41 @@ values('Saúde','Descobri uma receita TOP','Recentemente comecei a gostar de coz
 mas não sei nenhuma que envolva ovos mexidos... alguém sabe uma receita fácil e rápido de ovos mexidos?');
 
 #------------Inserts Usuário comum------------
-insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio) 
-values('Masculino', 'Afonso3','afonsotreis@hotmail.com', 'Afonso Rodrigues', 'Afonso_foto.jpeg', 'NadaNormalNúmero3', 'Ansiedade');
-insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio) 
-values('Masculino', 'Robert1inho2122','afonsotreis@hotmail.com', 'Roberto Soares', 'Roberto_foto.jpeg', 'AdoroGatos111', 'Transtorno Afetivo bipolar');
-insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio) 
-values('Feminino', 'Gabri3la24','Gabrielareina@gmail.com', 'Gabriela da Silva', 'Gabriela_foto.png', 'Gabyzinha32', 'Depressão');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Matheussenha123','matheus@gmail.com', 'Matheus dos Santos Luna', 'Matheus_foto.jpeg', 'Matheus', 'Ansiedade', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Adonaisenha123','adonai@gmail.com', 'Adonai Roberto de Oliveira Narciso', 'Adonai_foto.jpeg', 'Adonai', 'Transtorno Afetivo bipolar', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Feminino', 'EmillySsenha123','emillysantos@gmail.com', 'Emilly Santos Do Carmo', 'Emilly_foto.png', 'Emilly S.', 'Depressão', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Elijamersonsenha123','elijamerson@gmail.com', 'Elijamerson Lourenço dos Santos', 'Elijamerson_foto.jpeg', 'Elijamerson', 'Transtorno Afetivo bipolar', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Guilhermesenha123','guilherme@gmail.com', 'Guilherme Henrique de Lima', 'Guilherme_foto.jpeg', 'Guilherme', 'Ansiedade', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Eduardosenha123','eduardo@gmail.com', 'Eduardo Vitor Oliveira', 'Eduardo_foto.png', 'Eduardo', 'Depressão', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Latrelsenha123','latrel@gmail.com', 'Latrel Alan Crews', 'Latrel_foto.jpeg', 'Latrel', 'Transtorno Afetivo bipolar', 'Inglês(Estados Unidos)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Givaldosenha123','givalds@gmail.com', 'Gilvado Lima Luna', 'Givaldo_foto.jpeg', 'Givaldo', 'Ansiedade', 'Português(Brasil)', 'documentomedico.docx');
+insert into UsuarioComum(genero, senha, email, nome, foto_perfil, nickname, disturbio, lingua_nativa, documento_medico) 
+values('Masculino', 'Givanildosenha123','givanildo@gmail.com', 'Givanildo Lourenço de Farias', 'sapo.png', 'Givanildo', 'Depressão', 'Português(Brasil)', 'documentomedico.docx');
 
 #------------Inserts Usuário profissional------------
-insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao) 
-values('Feminino', 'Yellow23', 'mariapsicologia@hotmail.com', 'Maria Amélia', 'Maria_Amélia.jpg', 'MariaAméliaServiços', 'Psicóloga');
-insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao) 
-values('Masculino', '2425pedro26', 'almeidaserviçospsiquiatricos@gmail.com', 'Pedro Almeida', 'Pedro_Assoalho.jpg', 'pedroquiatra', 'Psiquiatra');
-insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao) 
-values('Masculino', 'Silvester24', 'carla@gmail.com', 'Henrique Silvestre', 'Henrique_Silvestre.jpeg', 'Paola_ajuda', 'Terapeuta Ocupacional');
+insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao, lingua_nativa, declaracao_trabalho) 
+values('Feminino', 'Yellow23', 'mariapsicologia@hotmail.com', 'Maria Amélia', 'Maria_Amélia.jpg', 'MariaAméliaServiços', 'Psicóloga', 'Português(Brasil)', 'declaraçãotrabalho.docx');
+insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao, lingua_nativa, declaracao_trabalho) 
+values('Masculino', '2425pedro26', 'almeidaserviçospsiquiatricos@gmail.com', 'Pedro Almeida', 'Pedro_Assoalho.jpg', 'pedroquiatra', 'Psiquiatra', 'Português(Brasil)', 'declaraçãotrabalho.docx');
+insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao, lingua_nativa, declaracao_trabalho) 
+values('Masculino', 'Silvester24', 'carla@gmail.com', 'Henrique Silvestre', 'Henrique_Silvestre.jpeg', 'Paola_ajuda', 'Terapeuta Ocupacional', 'Português(Brasil)', 'declaraçãotrabalho.docx');
+insert into UsuarioProfissional (genero, senha, email, nome, foto_perfil, nickname, profissao, lingua_nativa, declaracao_trabalho) 
+values('Masculino', 'Davidlima123', 'david.lima@gmail.com', 'David lima de Souza', 'David.jpeg', 'DAVID', 'Terapeuta', 'Português(Brasil)', 'declaraçãotrabalho.docx');
 
-#------------Inserts Chat------------
-insert into Chat(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+#------------Inserts Chat entre Comum e Profissional------------
+insert into ChatComumProfissional(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
 values(1, '89 itens', 1, 3);
-insert into Chat(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+insert into ChatComumProfissional(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
 values(2, '300 itens', 2, 1);
-insert into Chat(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
+insert into ChatComumProfissional(id, qt_msg_total, FK_usuariocomum_id, FK_usuarioprofissional_id)
 values(3, '1500 itens', 3, 2);
 
 #------------Inserts Denúncias------------
@@ -64,6 +78,26 @@ insert into UsuarioProfissionalDenuncias (FK_usuarioprofissional_id, FK_denuncia
 values(2, 3);
 
 ##------------Inserts relação UsuarioComumDenuncias------------
+insert into UsuarioComumDenuncias (FK_usuariocomum_id, FK_denuncias_id)
+values(3, 2);
+
+##Adicionar inserts de relação ( chat e postagens ) e os 20 usuários da lista de usuários
+
+#------------Inserts relação Chat entre Comum e Comum------------/
+insert into ChatComumComum(id, qt_msg_total, FK_usuariocomum_id, FK_usuariocomum2_id)
+values(1, '1500 itens', 4, 5);
+insert into ChatComumComum(id, qt_msg_total, FK_usuariocomum_id, FK_usuariocomum2_id)
+values(1, '1500 itens', 1, 3);
+insert into ChatComumComum(id, qt_msg_total, FK_usuariocomum_id, FK_usuariocomum2_id)
+values(1, '1500 itens', 2, 6);
+
+#------------Inserts relação Chat entre Profissional e Profissional------------/
+insert into ChatComumComum(id, qt_msg_total, FK_usuarioprofissional_id, FK_usuarioprofissional2_id)
+values(1, '1500 itens', 2, 3);
+insert into ChatComumComum(id, qt_msg_total, FK_usuarioprofissional_id, FK_usuarioprofissional2_id)
+values(1, '1500 itens', 1, 4);
+insert into ChatComumComum(id, qt_msg_total, FK_usuarioprofissional_id, FK_usuarioprofissional2_id)
+values(1, '1500 itens', 3, 1);
 insert into UsuarioComumDenuncias (FK_usuariocomum_id, FK_denuncias_id)
 values(3, 2);
 
