@@ -13,10 +13,12 @@ create table UsuarioComum(
 genero varchar(10),
 senha varchar(35),
 email varchar(50),
-nome varchar(50),
+nome varchar(100),
 foto_perfil varchar(75),
 nickname varchar(30),
 disturbio varchar(40),
+lingua_nativa varchar(25),
+documento_medico varchar(25),
 id int auto_increment,
 primary key(id)
 );
@@ -25,11 +27,13 @@ create table UsuarioProfissional(
 genero varchar(10),
 senha varchar(35),
 email varchar(50),
-nome varchar(50),
+nome varchar(100),
 foto_perfil varchar(75),
 nickname varchar(30),
 id int auto_increment,
 profissao varchar(80),
+lingua_nativa varchar(25),
+declaracao_trabalho varchar(17),
 primary key(id)
 );
 
